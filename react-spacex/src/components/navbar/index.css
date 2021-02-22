@@ -1,0 +1,27 @@
+nav {
+    padding: 20px 40px 20px 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid var(--gray);
+}
+
+nav .nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .nav-right a {
+    text-decoration: none;
+    color: var(--pure);
+    margin-right: 30px;
+    position: relative;
+}
+nav .nav-right a:hover:after {
+    width: 70%;
+}
+
+nav .nav-right a.active:after {
+    width: 70%;
+}

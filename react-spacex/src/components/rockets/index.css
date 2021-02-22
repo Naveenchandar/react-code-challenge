@@ -1,0 +1,138 @@
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 27px;
+}
+section {
+    display: block;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+.h1,
+.h2 {
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+h4,
+h5,
+h6,
+.h4,
+.h5,
+.h6 {
+    margin-top: 24px;
+    margin-bottom: 4px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.allrockets {
+    margin: 0;
+    background: #1E1E1E;
+    color: black;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+}
+.rocket-item-inner:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+.container,
+.container-sm {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.container {
+    max-width: 1128px;
+}
+.container-sm {
+    max-width: 848px;
+}
+.container .container-sm {
+    max-width: 800px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.text-center {
+    text-align: center;
+}
+.allrockets {
+    position: relative;
+}
+.allrockets-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -16px;
+    margin-left: -16px;
+}
+.allrockets-wrap:first-child {
+    margin-top: -16px;
+}
+.allrockets-wrap:last-child {
+    margin-bottom: -16px;
+}
+.rocket-item {
+    position: relative;
+    padding: 16px;
+    width: 388px;
+    max-width: 388px;
+    flex-grow: 1;
+}
+.rocket-item-inner {
+    position: relative;
+    height: 100%;
+    background: #fff;
+    padding: 48px 24px 72px;
+}
+.rocket-item-inner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 24px 48px rgba(17, 16, 62, 0.12);
+    mix-blend-mode: multiply;
+}
+.rocket-item-icon {
+    position: relative;
+    margin: 0 auto;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+}
+.rocket-item-icon svg {
+    position: relative;
+}
+    .allrockets .section-inner {
+        padding-bottom: 168px;
+    }
+    .rocket-item:nth-child(even) {
+        top: 80px;
+    }
+main {
+    flex: 1 0 auto;
+}
+
+.rocket-item-image > img{
+    width: 200px;
+    border-radius: 50%;
+}
